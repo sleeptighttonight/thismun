@@ -1,0 +1,242 @@
+
+
+*{
+  margin:0;
+  padding:0;
+  font-family:'Poppins',serif;
+}
+.header{
+  min-height:100vh;
+  width:100%;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/Banner.png);
+  background-position:center;
+  background-size:cover;
+  position:relative;
+
+}
+
+nav{
+  display:flex;
+  padding:2% 6%;
+  justify-content:space-between;
+  align-items:center;
+}
+nav img{
+  width:100px;
+}
+
+.nav-links{
+  flex:1;
+  text-align:right;
+}
+
+.ul{
+  display:inline-block;
+}
+
+
+
+.nav-links ul li{
+  list-style:none;
+  display:inline-block;
+  padding:8px 12px;
+  position:relative;
+  vertical-align:center;
+  font-weight:500;
+}
+
+.nav-links ul li::after{
+  content:'';
+  width:0%;
+  height:2px;
+  background:#7c98fc;
+  display:block;
+  margin:auto;
+  transition:0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width:100%;
+
+}
+
+.nav-links ul li a:hover::after{
+  color:white;
+}
+
+
+.nav-links ul li a{
+  color:white;
+  text-decoration:none;
+  font-size:14px;
+  transition:0.5s;
+}
+.text-box{
+  width:90%;
+  color:white;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+}
+.text-box h1{
+  font-size:62px;
+  font-family:'EB Garamond',serif;
+}
+.theme-statement{
+  font-family:'EB Garamond',serif;
+  margin:10px 0 0px;
+  font-size:25px;
+  color:white;
+}
+.setting-text{
+  font-family:'EB Garamond';
+  margin:10px 10px 40px;
+  font-size:20px;
+  color:white;
+}
+
+.register-now{
+  color:white;
+  padding:20px 34px;
+  font-weight:400px;
+  transition:0.3s;
+  border-style:solid;
+  margin-top:20px;
+  cursor:pointer;
+  position:relative;
+  background:transparent;
+}
+
+.register-now:hover{
+  background-color:white;
+  color:rgb(15,15,79);
+  border-style:solid;
+  border-color:white;
+}
+
+nav.fa{
+  display:none; 
+}
+
+/* course */
+
+
+.welcome{
+  width:60%;
+  margin:auto;
+  text-align:center;
+  padding-top:100px;
+  padding-bottom:100px;
+
+}
+h1{
+  font-family: 'EB Garamond', serif;
+  font-size:46px;
+  font-weight:600;
+  margin-bottom:20px;
+}
+p{
+  color:#464646;
+  font-family:'EB Garamond';
+  font-size:22px;
+  font-weight:300;
+  line-height:25px;
+  padding:10px;
+}
+.regards{
+  text-align:right;
+  margin-top:20px;
+}
+
+/* ----------------------------committee page----------------------------------------*/
+
+.committee{
+  min-height:100vh;
+  width:100%;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/Committee.JPG);
+  background-position:center;
+  background-size:cover;
+  position:relative;
+
+}
+
+.committee .text-box {
+  text-align: center; /* Center align text and button */
+  margin-top: 40px; /* Add some spacing above the section if needed */
+}
+
+.committee h1 {
+  font-size: 56px; /* Adjust header size if necessary */
+  margin-bottom: 20px; /* Add space below the header */
+}
+
+.explore-button {
+  display:block;
+  width:fit-content;
+  margin:auto;
+  color:white;
+  padding:20px 34px;
+  font-weight:400px;
+  transition:0.3s;
+  border-style:solid;
+  margin-top:50px;
+  cursor:pointer;
+  position:relative;
+  background:transparent;
+}
+
+.explore-button:hover {
+  background-color:white;
+  color:#5B2A8E;
+  border-style:solid;
+  border-color:white;
+}
+
+/* ----------------------------about page----------------------------------------*/
+
+.about{
+  min-height:100vh;
+  width:100%;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/about.JPG);
+  background-position:center;
+  background-size:cover;
+  position:relative;
+
+}
+
+/* ----------------------------preparation page----------------------------------------*/
+
+.preparation{
+  min-height:100vh;
+  width:100%;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/Preparation.JPG);
+  background-position:center;
+  background-size:cover;
+  position:relative;
+}
+
+/* ----------------------------contact section----------------------------------------*/
+
+.footer{
+  width:100%;
+  height:20px;
+  background-color:rgb(6, 6, 47);
+  margin:auto;
+  text-align:center;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.mail-icon{
+  justify-content:center;
+  width:100%;
+  
+}
+
+.mail-button{
+  width:20px;
+}
+
+
