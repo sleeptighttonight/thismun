@@ -160,3 +160,23 @@ hr{
   background-color:rgb(15,15,79);
   color:white;
 }
+
+.footer{
+  width:100%;
+  height:20px;
+  background-color:rgb(15,15,79);
+  margin:auto;
+  text-align:center;
+  padding-top:80px;
+  padding-bottom:70px;
+}
+
+.mail-icon{
+  justify-content:center;
+  width:100%;
+  
+}
+
+.mail-button{
+  width:20px;
+}
