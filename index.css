@@ -1,5 +1,3 @@
-
-
 *{
   margin:0;
   padding:0;
@@ -24,7 +22,30 @@ nav{
 nav img{
   width:100px;
 }
+.logo-lockup {
+  display: flex;
+  align-items: center; 
+  gap: 15px;           
+}
 
+.logo-lockup img {
+  width: 70px;         
+  height: auto;        
+  display: block;
+}
+
+.logo-lockup .unitar-logo {
+  width: 200px;
+}
+
+.cross-symbol {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;     
+  line-height: 1;
+  opacity: 0.8;        
+}
 .nav-links{
   flex:1;
   text-align:right;
@@ -127,8 +148,8 @@ nav.fa{
   width:60%;
   margin:auto;
   text-align:center;
-  padding-top:100px;
-  padding-bottom:100px;
+  padding-top:50px;
+  padding-bottom:50px;
 
 }
 h1{
